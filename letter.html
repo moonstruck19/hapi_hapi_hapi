@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>hehe</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #b6d3b5;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #85d382;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .message {
+            font-size: 1.5rem;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉Congratulation🎉</h1>
+        <div class="message" id="message"></div>
+    </div>
+
+    <script>
+        const message = 
+        "Wishing you a day filled with love, laughter, and unforgettable memories. Happy Birthday! 🎂🎁";
+        const messageElement = document.getElementById("message");
+        let index = 0;
+
+        function typeEffect() {
+            if (index < message.length) {
+                messageElement.innerHTML += message[index];
+                index++;
+                setTimeout(typeEffect, 50);
+            }
+        }
+        typeEffect();
+    </script>
+</body>
+</html>
