@@ -6,7 +6,26 @@ html {
     font-family: 'Poppins', sans-serif;
     margin: 0;
   }
-  
+  .navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #343a40;
+  }
+  .navbar-brand:hover {
+    color: #007bff;
+  }
+  .nav-link {
+    font-size: 1rem;
+    color: #343a40;
+    transition: color 0.3s ease;
+  }
+  .nav-link:hover {
+    color: #007bff;
+  }
   .song {
     visibility: hidden;
   }
@@ -204,7 +223,7 @@ html {
   }
   
   .wish-hbd {
-    font-size: 3em;
+    font-size: 2em;
     margin: 0;
     text-transform: uppercase;
   }
@@ -216,7 +235,7 @@ html {
   }
   
   .nine p {
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: lighter;
   }
   
@@ -289,4 +308,5 @@ html {
       font-size: 1.5rem;
       font-weight: lighter;
     }
+
   }
