@@ -42,22 +42,11 @@
         <h1>🎉Congratulation🎉</h1>
         <div class="message" id="message"></div>
     </div>
-
-    <!-- <script>
-        var message = 
-        "Miền nam thì có hoa mai, gặp nhau phải có một hai lời chào, \n Miền bắc thì có hoa đào, gặp nhau phải có lời chào đầu tiên. \n Hello, lại là tui đây. Vào ngày đẹp trời không deadline đã giúp tui có thời gian build lên chiếc mini web này. Tuy nó hong có chi đặc biệt lắm, nhưng coi như là lần đầu tui build 1 website chúc mừng sinh nhật ai đó. Trước đó có 1 version, tui vừa viết vừa ôn thi nên nó cũng k có ổn lắm, nên tui không có deploy nó được. \n Nay 6/12 hì, Shu  lại đang ở một đất nước mới rùi, nếu có gì hay thì gửi tui coi ké với =))). Nếu có chiện gì xảy ra thì tui vẫn ở đây để nghe bạn kể, lệch giờ quá thì tui dậy đọc sau nhưng nếu trả lời được liền thì tui sẽ trả lời hehe. \n Cuối cùng, mong bạn có thể cố gắng hết sức ở môi trường mới, đất nước mới để kiếm nhìu tiền về đây chơi lại  =))). Cũng mong chiếc website nì có thể sống được lâu (nếu server không sập T.T). Nếu sập bạn có thể kiu tui để tui deploy nó lên server lại vì dù gì source code tui cũng lưu roài. Wishing you a day filled with love, laughter, and unforgettable memories. Happy Birthday! 🎂🎁";
-        const messageElement = document.getElementById("message");
-        let index = 0;
-
-        function typeEffect() {
-            if (index < message.length) {
-                messageElement.innerHTML += message[index];
-                index++;
-                setTimeout(typeEffect, 10);
-            }
-        }
-        typeEffect();
-    </script> -->
+    <audio class="song" loop autoplay>
+        <source src="./music/oneday.mp3">
+        </source>
+        Your browser isn't invited for super fun audio time.
+    </audio>
     <script>
         var message =
             `Miền nam thì có hoa mai, gặp nhau phải có một hai lời chào, \n
@@ -65,8 +54,6 @@
             Hello, lại là tui đây. Vào ngày đẹp trời không deadline đã giúp tui có thời gian build lên chiếc mini web này. Tuy nó hong có chi đặc biệt lắm, nhưng coi như là lần đầu tui build 1 website chúc mừng sinh nhật ai đó. Trước đó có 1 version, tui vừa viết vừa ôn thi nên nó cũng k có ổn lắm, nên tui không có deploy nó được. 
             Nay 6/12 hì, Shu  lại đang ở một đất nước mới rùi, nếu có gì hay thì gửi tui coi ké với =))). Nếu có chiện gì xảy ra thì tui vẫn ở đây để nghe bạn kể, lệch giờ quá thì tui dậy đọc sau nhưng nếu trả lời được liền thì tui sẽ trả lời hehe. 
             Cuối cùng, mong bạn có thể cố gắng hết sức ở môi trường mới, đất nước mới để kiếm nhìu tiền về đây chơi lại  =))). Cũng mong chiếc website nì có thể sống được lâu (nếu server không sập T.T). Nếu sập bạn có thể kiu tui để tui deploy nó lên server lại vì dù gì source code tui cũng lưu roài. Wishing you a day filled with love, laughter, and unforgettable memories. Happy Birthday! 🎂🎁`;
-
-        // Replace newlines with <br>
 
         const messageElement = document.getElementById("message");
         let index = 0;
